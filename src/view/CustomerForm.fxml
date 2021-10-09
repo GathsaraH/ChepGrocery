@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootPain" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerFormController">
+   <children>
+      <Button fx:id="txtBackButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnBack" text="&lt;-" />
+      <Text layoutX="231.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Customer">
+         <font>
+            <Font name="Consolas Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="85.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer  Name:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="78.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer  Address:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="77.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer  Contact :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtCustName" layoutX="285.0" layoutY="109.0" prefHeight="25.0" prefWidth="193.0" />
+      <TextField fx:id="txtCustAddress" layoutX="285.0" layoutY="161.0" prefHeight="25.0" prefWidth="193.0" />
+      <TextField fx:id="txtCustContact" layoutX="285.0" layoutY="205.0" prefHeight="25.0" prefWidth="193.0" />
+      <Button fx:id="txtAddCustomer" layoutX="252.0" layoutY="293.0" mnemonicParsing="false" onAction="#btnAddCustomer" prefHeight="25.0" prefWidth="129.0" style="-fx-border-radius: 12;" text="Add Customer" textFill="#2112e0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
