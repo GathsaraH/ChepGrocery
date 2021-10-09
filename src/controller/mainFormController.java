@@ -29,6 +29,9 @@ public class mainFormController {
         stage.centerOnScreen();
     }
 
-    public void btnAddItem(ActionEvent actionEvent) {
+    public void btnAddItem(ActionEvent actionEvent) throws IOException {
+        Stage stage = (Stage) this.rootPain.getScene().getWindow();
+        stage.setScene(new Scene(FXMLLoader.load(this.getClass().getResource("../view/ItemForm.fxml"))));
+        stage.centerOnScreen();
     }
 }
