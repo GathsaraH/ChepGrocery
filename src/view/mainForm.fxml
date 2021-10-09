@@ -14,5 +14,6 @@
       </Text>
       <Button fx:id="txtAddCustomer" layoutX="143.0" layoutY="175.0" mnemonicParsing="false" onAction="#btnAddCustomer" text="Add Customer" />
       <Button fx:id="txtAddItem" layoutX="341.0" layoutY="175.0" mnemonicParsing="false" onAction="#btnAddItem" prefHeight="25.0" prefWidth="102.0" text="Add Item" />
+      <Text layoutX="289.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="v1.2.0" />
    </children>
 </AnchorPane>
